@@ -15,8 +15,9 @@
 <?php
 
   header('index.php?page=home');
- include 'header.php'; ?>
-<?php if(isset($_SESSION['login_id'])) include 'navBar.php'; ?>
+ include 'header.php'; 
+ include 'navBar.php'; 
+ ?>
 
 <div class="toast" id="alert_toast" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="toast-body text-white">
